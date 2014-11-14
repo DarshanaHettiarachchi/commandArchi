@@ -1,0 +1,20 @@
+{
+    "name": "dnh/command-archi",
+    "description": "",
+    "authors": [
+        {
+            "name": "Darshana Hettiarachchi",
+            "email": "dnhnuwan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Dnh\\CommandArchi": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
