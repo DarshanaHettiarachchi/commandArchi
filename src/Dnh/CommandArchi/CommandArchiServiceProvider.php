@@ -38,7 +38,7 @@ class CommandArchiServiceProvider extends ServiceProvider {
      */
     protected function registerCommandTranslator()
     {
-        $this->app->bind('Dnh\CommandArchi\CommandTranslator', 'Laracasts\Commander\BasicCommandTranslator');
+        $this->app->bind('Dnh\CommandArchi\CommandTranslator', 'Dnh\CommandArchi\BasicCommandTranslator');
     }
 
     /**
